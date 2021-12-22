@@ -1,0 +1,45 @@
+#printable {
+    font-family: "Times New Roman";
+    background-color: white;
+    color: black !important;
+    width: 210mm;
+    margin: 0 auto;
+  }
+  
+  #printable .step {
+    margin-top: 5mm;
+    margin-bottom: 3mm;
+  }
+  
+  #printable .step .step-title {
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    padding-left: 5mm;
+    /*border-bottom-left-radius: 0.5em;*/
+    background-color: #ccc;
+    margin-bottom: 3mm;
+    font-size: 20px;
+  }
+  
+  #printable .block {
+    margin-top: 2mm;
+  }
+  
+  #printable .block .block-title {
+    background-color: #eee;
+    padding: 2mm;
+  }
+  #printable .field {
+    margin-top: 2mm;
+  }
+  
+  #printable .field .label {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  #printable .field .value {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
